@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetDrogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleHome.css">
+
+    <style>
+        .banner-image {
+            background-image: url(img/fundo3.jpg);
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img/marca.png" alt="" width="60px">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Home.html">Inicio</a></li>
+                    <li><a class="dropdown-item" href="produtos.html">Banho&Tosa</a></li>
+                    <li><a class="dropdown-item" href="produtos.html">Comidas</a></li>
+                    <li><a class="dropdown-item" href="produtos.html">Brinquedos</a></li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link text-white">Home</a>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            </form>
+
+            <a href="login.html"><button type="button" class="btn btn-outline-success">Login</button></a>
+
+        </div>
+    </nav>
+
+    <!-- Imagem Banner -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center 
+        align-items-center">
+        <div class="content text-center">
+            <h1 class="text-info">SEJA BEM VINDO</h1>
+        </div>
+    </div>
+
+
+    <!-- Main Content Area -->
+    <div class="container my-5 d-grid gap-5">
+        <div class="p-5 border">
+            <H1>NOVIDADES</H1>
+            <div class="produtos">
+                <div class="linha2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/brinquedoGATO3.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Casinha Para Gatos</h5>
+                            <p class="card-text">Uma casinha cheia de divertimento para seu felino </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">R$500,00</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Compre Já</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/brinquedoGATO1.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Ratinho Brincalhão</h5>
+                            <p class="card-text">Um bixinho de morde para seu pilantrinha entretido.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">R$40,00</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Compre Já</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="img/brinquedoDOG3.jfif" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Mordedor Fofo</h5>
+                            <p class="card-text">Um bixinho de morde para seu pilantrinha entretido.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">R$50,00</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Compre Já</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-5 border">
+        <h1>DESTAQUES</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/brinquedoDOG3.jfif" class="d-block w-100" alt="..." height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/brinquedoGATO1.jfif" class="d-block w-100" alt="..." height="600px">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/brinquedoDOG@.jfif" class="d-block w-100" alt="..." height="600px">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+            } else {
+                window.classList.remove('bg-dark', 'shadow');
+            }
+        });
+    </script>
+</body>
+
+</html>

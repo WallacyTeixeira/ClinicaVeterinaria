@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a4a0a;
+}
+
+.h1{
+    color: aquamarine;
+}
+
+.linha1 {
+    background-color: #0a4a0a;
+    /* Cor verde desejada */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre as linhas */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.linha2 {
+    background-color: #0a4a0a;
+    /* Cor verde desejada */
+    padding: 20px;
+    /* Espaçamento interno */
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre as linhas */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    /* Calcule a largura com margens entre os cards */
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre os cards */
+    padding: 80px 60px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .form-inline {
+        display: none;
+    }
+
+}
